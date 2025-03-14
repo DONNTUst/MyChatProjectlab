@@ -2,6 +2,7 @@
 # Имитация кода модуля аутентификации и управления пользователями
 
 def login(username, password):
+    return f"AUTH-BRANCH: {username} is now logged in!"
     """
     Функция, имитирующая вход в систему.
     """
